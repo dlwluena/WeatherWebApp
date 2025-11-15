@@ -3,7 +3,8 @@
 A beginner-friendly machine learning web application built for the "ESOF325-Introduction to Artificial Intelligence" course.
 
 This project uses a **Logistic Regression** model trained with Scikit-learn to predict the weather as **Sunny, Rainy, Cloudy,** or **Windy** based on user-provided inputs for Temperature, Humidity, and Wind Speed. The model is served as a web application using the Flask framework.
-![Uploading weather.jpg…]()
+<img width="1470" height="829" alt="weather" src="https://github.com/user-attachments/assets/55513020-aff7-4bda-9e35-66202670b2f2" />
+
 
 ---
 
