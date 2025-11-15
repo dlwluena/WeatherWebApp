@@ -1,0 +1,18 @@
+# Python Sanal Ortamı
+.venv/
+venv/
+lib/
+include/
+
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# Eğitilmiş model dosyası
+*.pkl
+
+# VS Code ayar klasörü
+.vscode/
+
+# Mac sistem dosyası
+.DS_Store

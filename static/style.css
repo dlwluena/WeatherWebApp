@@ -1,0 +1,75 @@
+/* YENİ: Daha estetik bir görünüm için Google Font (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    /* YENİ: Yazı tipi tüm sayfaya uygulandı */
+    font-family: 'Poppins', sans-serif;
+    
+    /* YENİ: Açık gökyüzü mavisi gradient */
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-attachment: fixed; /* Arka plan sabit kalsın */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* YENİ: Kartı daha estetik hale getirelim */
+.weather-card {
+    width: 400px;
+    background-color: #ffffff; /* Tam opak beyaz */
+    border: none;
+    /* Gölgeyi daha yumuşak ve estetik hale getirdik */
+    box-shadow: 0 12px 35px rgba(0, 50, 100, 0.15);
+    /* Köşeleri daha yuvarlak yaptık */
+    border-radius: 20px; 
+}
+
+/* YENİ: Kart başlığı fontu */
+.weather-card .card-title {
+    font-weight: 600; /* Biraz daha kalın */
+    color: #333;
+}
+
+/* YENİ: Buton rengini tema ile uyumlu hale getirme */
+/* Bootstrap'in kendi btn-primary'sini eziyoruz */
+.btn-primary {
+    background-color: #3f86ed; /* Gökyüzü temasına uygun hoş bir mavi */
+    border: none;
+    padding: 12px 20px; /* Butonu biraz daha dolgun yaptık */
+    font-weight: 500;
+    transition: all 0.2s ease; /* Yumuşak geçiş */
+}
+
+.btn-primary:hover {
+    background-color: #3572cd; /* Hover rengi */
+    box-shadow: 0 4px 12px rgba(63, 134, 237, 0.4); /* Hover'da hafif bir parlama */
+}
+
+/* YENİ: Form elemanlarına odaklanınca (focus) tema rengini kullan */
+.form-control:focus {
+    border-color: #3f86ed;
+    box-shadow: 0 0 0 0.25rem rgba(63, 134, 237, 0.25);
+}
+
+/* Sonuç alanı için stil */
+.result-area {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0; /* Ayırıcı çizgiyi daha açık renk yaptık */
+}
+
+.result-icon {
+    font-size: 6rem; 
+    line-height: 1;
+    /* YENİ: İkon rengini de butonla eşleştirdik */
+    color: #3f86ed;
+}
+
+.result-text {
+    font-size: 2rem; 
+    font-weight: 600; /* Sonuç metnini daha kalın yaptık */
+    margin-top: 10px;
+    color: #222; /* Daha koyu, daha okunaklı metin */
+}
